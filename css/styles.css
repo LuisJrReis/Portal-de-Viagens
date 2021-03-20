@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #2F4F4F;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo a, h1{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+#logo a:hover{
+    color: crimson;
+}
+
+nav ul, li, a {
+    list-style: none;
+    display: flex;
+    padding: 0 10px;
+    font-size: 0.9em;
+    color:white;
+    text-decoration: none;
+}
+
+#content {
+    background: rgb(27, 188, 155);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+#content img{
+    width: 80vh;
+}
+
+#content h2{
+    font-size: 40px;
+}
+
+/* Form */
+#form h2 {
+    margin-top: 70px;
+    font-weight: bolder;
+    font-size:4vh;
+    color: rgb(45, 62, 80);
+    display: flex;
+    justify-content: center;
+}
+
+#form form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: #B7BDC5;
+}
+
+
+#form form input {
+    border: none;
+    border-bottom: 1px solid #B7BDC5;
+    margin-bottom: 25px;
+    width: 32%;
+    height: 2.5vh;
+    padding: 2vh 0;
+}
+
+#form form button {
+    color: white;
+    background-color: rgb(27, 188, 155);
+    margin: 1% 25% 1% 1%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;    
+}
